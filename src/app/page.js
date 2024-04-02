@@ -97,17 +97,17 @@ export default function Home() {
         <section className='visibilite'>
           <h2>Ils nous font confiance</h2>
           <article className='grid'>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
-              <CardClient Title={"Google"} Img={"/visibilite/google.png"} alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
+              <CardClient Title={"Google"} Img={"/visibilite/google.png"} Alt={"logo client google"} Link={"https://www.google.fr/"}/>
           </article>
         </section>
         <section className='faq'>
