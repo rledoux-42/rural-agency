@@ -1,0 +1,75 @@
+.main-reference {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main-reference h2 {
+    font-size: 2rem;
+}
+
+.main-reference h2, h3 {
+    text-align: center;
+}
+
+/* 
+==================================================================
+Mockup component style
+==================================================================
+*/
+.mockup {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 1306px;
+}
+
+.mockup h3 {
+    font-size: 2rem;
+}
+
+.mockup .infos {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80%;
+    margin: 0 0 0 2rem;
+    z-index: 10;
+}
+
+.mockup .infos h4, p {
+    font-size: 1.2rem;
+}
+
+.mockup .infos h4 {
+    margin: 0.5rem;
+}
+
+.mockup .infos p {
+    margin: 0 0 0 1rem;
+}
+
+.mockup .infos a {
+    background-color: #0c0c0c;
+    color: #f2f2f2;
+    padding: 0.8rem 2.3rem;
+    margin: 1rem 0;
+}
+
+/* 
+==================================================================
+Responsive
+==================================================================
+*/
+
+@media only screen and (max-width: 1294px) {
+    .mockup .infos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-end;
+        height: 90%;
+
+    }
+    
+}

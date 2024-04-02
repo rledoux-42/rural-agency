@@ -1,0 +1,68 @@
+.main-contact {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main-contact h2 {
+    text-align: center;
+}
+
+.main-contact form {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+}
+
+.main-contact form fieldset {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0.5rem 0;
+}
+
+.main-contact form fieldset>input,select {
+    width: 40rem;
+    height: 2em;
+    background-color: #f2f2f2;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 0.5rem;
+    background-color: #f2f2f2;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+
+.main-contact form input[type="submit"] {
+    background-color: #145E8C;
+    color: #fff;
+    border: none;
+    width: 7rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    align-self: self-end;
+    margin: 1rem 1rem 0 0;
+}
+
+/* 
+==================================================================
+Responsive
+==================================================================
+*/
+
+@media only screen and (max-width: 961px) {
+    .main-contact form {
+        margin: 0;
+    }
+    .main-contact form fieldset {
+        width: 90%;
+        margin: auto;
+    }
+    .main-contact form fieldset>input,select,textarea {
+        width: 90%;
+        margin: auto;
+    }
+}

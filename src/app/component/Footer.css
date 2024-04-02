@@ -1,0 +1,78 @@
+footer {
+    margin: 5rem 0 0 0;
+    background-color: #949494;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+footer .links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    
+}
+
+footer .links a, p {
+    color: #0c0c0c;
+    margin: 0;
+    padding: 0.2rem;
+}
+
+footer .links h3 {
+    color: #145E8C;
+}
+
+footer .links .categorie {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+footer .mentions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer .mentions p {
+    color: #0c0c0c;
+}
+
+/* 
+==================================================================
+Responsive
+==================================================================
+*/
+@media only screen and (max-width: 1294px) {
+}
+
+@media only screen and (max-width: 961px) {
+    footer .links {
+        width: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem;   
+    }
+    footer .links .categorie {
+        margin: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer .links {
+        width: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: center;
+    }
+}

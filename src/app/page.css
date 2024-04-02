@@ -1,0 +1,186 @@
+.main-home {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 1294px;
+    margin: auto;
+}
+/* 
+==================================================================
+First section 
+==================================================================
+*/
+.slider {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/slider/background_slider.png");
+    
+}
+
+.slider .article-aside {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .article-aside aside img {
+    margin: 1rem;
+}
+
+/* 
+==================================================================
+Second section 
+==================================================================
+*/
+.presentation {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.presentation>.title {
+    display: flex;
+    flex-flow: row;
+    text-align: left;
+}
+
+.presentation article {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.presentation article h3 {
+    background-color: #F29829;
+    padding: 0.5rem;
+}
+
+.presentation article .experience {
+    display: flex;
+    flex-flow: row;
+    margin: 1rem 5rem;
+    background-color: #fff;
+    border: #ebebeb 5px solid;
+}
+/* 
+==================================================================
+Third section 
+==================================================================
+*/
+.visibilite h2 {
+    text-align: center;
+}
+
+.visibilite article.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.visibilite article.grid .card {
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.visibilite article.grid .card:hover img {
+    width: 60px;
+    height: 60px;
+    transition: all 0.2s;
+}
+
+/* 
+==================================================================
+Fourth section 
+==================================================================
+*/
+.faq {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.faq h2 {
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.faq .question {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding:  0 1rem;
+    margin: 1rem;
+    background-color: #969696;
+    border-radius: 30px;
+}
+
+.faq .question h4 {
+    margin: 1rem 0 0.5rem 0.5rem;
+}
+
+.faq .question p {
+    margin: 0 0 0.2rem 1rem;
+}
+
+.faq .question a {
+    font-weight: 700;
+    margin: 0 0 0.5rem 1rem;
+    padding: 0.5rem 0;
+    color: #145E8C;
+}
+
+
+/* 
+==================================================================
+Responsive
+==================================================================
+*/
+@media only screen and (max-width: 1294px) {
+    .main-home {
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 961px) {
+    /* First section vertical align */
+    .slider {
+        width: 100%;
+    }
+    .slider .article-aside {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .slider .article-aside aside {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    .slider .article-aside aside img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    /* Second section full width */
+    .presentation article .experience{
+        width: 100%;
+        margin: 0;
+    }
+    .presentation article .experience .card-exp img {
+        width: 75px;
+        height: 75px;
+    }
+    .presentation>.title img {
+        width: 75px;
+        height: 75px;
+    }
+    
+}
